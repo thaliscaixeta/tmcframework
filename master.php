@@ -10,5 +10,12 @@ class MasterConfig{
   public function getEnterprise(){
     return $this->enterprise;
   }
+  
+  /*
+    @testMethods
+  */
+  public function getFuncionario(){
+    echo 'Nenhum';
+  }
 }
 ?>
